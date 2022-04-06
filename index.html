@@ -36,7 +36,7 @@
     </head>
     <body>
         <header>
-            <nav class="header container navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="header container headercontainer navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">
                     <span class="fa fa-align-right"></span>
                     Corp Vision
@@ -116,7 +116,55 @@
                 </div>
             </nav>
         </header>
-        <section class="corpCarousel"></section>
+        <section class="corpCarousel">
+            <!--  data-ride="carousel" -->
+            <div id="corpFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel__overlay"></div>
+                    <img src="./img/b1.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>We will solve your issues our vision to your future</h1>
+                        <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+                        <p>Learn More</p>                       
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel__overlay"></div>
+                    <img src="./img/b2.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Embracing success do our<br> best, need best advice</h1>
+                        <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+                        <p>Get Started</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel__overlay"></div>
+                    <img src="./img/b3.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Digital transformation<br> driven by technology</h1>
+                        <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+                        <p>Learn More</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel__overlay"></div>
+                    <img src="./img/b4.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>For those who believe in<br> leaving a mark</h1>
+                        <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+                        <p>Contact Now</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#corpFade" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#corpFade" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+              </div>
+        </section>
         <section class="about"></section>
         <section class="challenges"></section>
         <section class="services"></section>
