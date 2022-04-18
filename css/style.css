@@ -72,7 +72,7 @@ body {
   font-size: 35px;
   line-height: 45px;
   font-weight: 700;
-  color: #3c3a64;
+  color: var(--heading-color);
 }
 
 li {
@@ -296,7 +296,7 @@ header {
   display: grid;
   grid-template-columns: 1fr auto;
   font-size: 18px;
-  color: #3f3a64;
+  color: var(--heading-color);
 }
 .success .progress-1 .titile-progress {
   width: 80%;
@@ -422,7 +422,7 @@ header {
 }
 /* FEEDBACK  */
 .feedback {
-  background-color: #f8f9fa;
+  background: var(--bg-lightgrey);
   padding: 3rem 0;
 }
 .feedback .owl-carousel .item p {
@@ -433,6 +433,11 @@ header {
   margin: 0 100px;
   padding: 40px 30px;
   max-width: 900px;
+}
+.feedback .test_name h3 {
+  color: var(--heading-color);
+  font-size: 20px;
+  font-weight: 700;
 }
 .item_test {
   display: grid;
@@ -463,5 +468,57 @@ header {
 .owl-carousel.owl-theme .owl-dots .owl-dot.active span {
   transform: scale(1.5);
   background-color: #1f3064;
-  /* display: inline-block; */
+}
+/* news  */
+.news {
+  background-color: var(--bg-color);
+}
+.news_content .card-title {
+  font-size: 17px;
+  color: #999999;
+}
+.news .card {
+  background-color: var(--bg-color);
+  box-shadow: 0 2px 100px 0 rgb(0, 0, 0, 0.05);
+  border: 1px solid var(--bg-color);
+}
+.news_content .card-text {
+  color: var(--heading-color);
+  font-weight: 600;
+  line-height: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.news_content .card-img img {
+  border-radius: 5px 5px 0 0;
+  transition: all 0.5s;
+}
+.news_content .card:hover .card-img img {
+  transform: scale(1.1);
+}
+.card-footer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  background-color: var(--bg-color);
+  border-top: 1px solid var(--border-color-light);
+}
+.news_content .card-footer {
+  color: #9f9f9f;
+  font-size: 15px;
+}
+.card_center li {
+  font-weight: 600;
+  line-height: 26px;
+}
+.card_center li a {
+  font-size: 16px;
+  color: var(--heading-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.hovertext:hover a,
+.card-text:hover {
+  color: var(--primary-color);
 }
