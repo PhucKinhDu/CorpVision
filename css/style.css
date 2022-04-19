@@ -82,6 +82,9 @@ li {
 a {
   text-decoration: none;
 }
+a:hover {
+  text-decoration: none;
+}
 
 .btn-style {
   padding: 15px 50px;
@@ -521,4 +524,116 @@ header {
 .hovertext:hover a,
 .card-text:hover {
   color: var(--primary-color);
+}
+/* FIND  */
+.find {
+  background-image: url(../img/map.png);
+  background-color: #151421;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.find .find_title {
+  margin: 0 240px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 100;
+  color: rgba(238, 238, 238, 0.616);
+}
+.find_title h6 {
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  line-height: 2;
+}
+.find .input-group {
+  display: grid;
+  grid-template-columns: 50px 1fr auto;
+  max-width: 550px;
+}
+.find .input-group-text {
+  border-radius: 8px 0 0 8px;
+  background: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(128, 128, 128, 0.274);
+}
+.find .input-group button {
+  border-radius: 0 8px 8px 0;
+  background: #00a63f;
+  border-color: #00a63f;
+  color: white;
+  padding: 0 30px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.find .input-group button:hover {
+  background: #067430;
+  border-color: #067430;
+}
+.find .input-group input[type="email"] {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 30px 20px;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-color: rgba(128, 128, 128, 0.274);
+}
+.find .input-group input:focus,
+.find .input-group button {
+  box-shadow: none;
+}
+/* FOOtER  */
+footer {
+  background: #151421;
+  border-top: 1px solid rgba(249, 249, 249, 0.1);
+}
+.footer_top {
+  font-size: 18px;
+  color: #97a1a9;
+  line-height: 1.5;
+}
+.footer_logo span {
+  width: 30px;
+  color: #009f4d;
+}
+.footer_logo a {
+  font-size: 30px;
+  font-weight: 600;
+  color: white !important;
+}
+.footer_logo h6 {
+  font-size: 14px;
+  margin-left: 2.4rem;
+  font-weight: 600;
+  color: white;
+}
+.footer_folow a {
+ margin-right: 10px;
+}
+.footer_top .row a {
+  color: #97a1a9;
+  transition: all 0.5s;
+}
+.footer_top .row a:hover {
+  color: white;
+  line
+}
+
+.title-footer {
+  font-size: 22px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+/* COOPYRIGHT  */
+.copyright{
+  background: #151421;
+  border-top: 1px solid rgba(249, 249, 249, 0.1);
+  font-size: 17px;
+  color: #7f8a94;
+  letter-spacing: .5px;
+}
+.copyright span{
+  color: #00a63f;
+  font-size: 18px;
 }
