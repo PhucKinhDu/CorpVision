@@ -53,15 +53,9 @@
 
 html,
 body {
-<<<<<<< HEAD
-    font-family: "Jost", sans-serif;
-    background: #fff;
-    color: #666;
-=======
   font-family: "Jost", sans-serif;
   background: #fff;
   color: #666;
->>>>>>> 6f77a88a5728a5e339bbc782c959958b31c7542b
 }
 
 /* GLOBAL */
@@ -77,17 +71,10 @@ body {
 }
 
 .title-big {
-<<<<<<< HEAD
-    font-size: 35px;
-    line-height: 45px;
-    font-weight: 700;
-    color: #3f3a64;
-=======
   font-size: 35px;
   line-height: 45px;
   font-weight: 700;
   color: #3c3a64;
->>>>>>> 6f77a88a5728a5e339bbc782c959958b31c7542b
 }
 
 li {
@@ -190,21 +177,12 @@ header {
 }
 
 .navCorp .navbar-brand p {
-<<<<<<< HEAD
-    text-transform: none;
-    display: block;
-    font-size: 14px;
-    padding-left: 52px;
-    font-weight: 600;
-    opacity: 0.9;
-=======
   text-transform: none;
   display: block;
   font-size: 14px;
   padding-left: 52px;
   font-weight: 600;
   opacity: 0.9;
->>>>>>> 6f77a88a5728a5e339bbc782c959958b31c7542b
 }
 
 /* MENU HEADER */
@@ -213,21 +191,12 @@ header {
 }
 
 .navCorp .navbar-nav .nav-link {
-<<<<<<< HEAD
-    transition: all 0.5s;
-    padding: 14px 0 10px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #fff;
-    opacity: 0.8;
-=======
   transition: all 0.5s;
   padding: 14px 0 10px;
   font-size: 15px;
   font-weight: 600;
   color: #fff;
   opacity: 0.8;
->>>>>>> 6f77a88a5728a5e339bbc782c959958b31c7542b
 }
 
 .navCorp .navbar-nav .nav-item:hover .nav-link {
@@ -249,30 +218,6 @@ header {
 }
 
 #navbarCorp .dropdown-menu:before {
-<<<<<<< HEAD
-    content: "";
-    width: 14px;
-    height: 14px;
-    background: var(--bg-color);
-    border: 1px solid var(--border-color-light);
-    display: block;
-    border-right: none;
-    border-bottom: none;
-    transform: translateX(-50%) rotateZ(45deg);
-    position: absolute;
-    top: -7px;
-    left: 49%;
-    z-index: 1001;
-}
-
-#navbarCorp .dropdown-item {
-    font-size: 15px;
-    color: var(--heading-color);
-    background: none;
-    opacity: 0.8;
-    font-weight: 600;
-    padding: 6px 20px;
-=======
   content: "";
   width: 14px;
   height: 14px;
@@ -295,7 +240,6 @@ header {
   opacity: 0.8;
   font-weight: 600;
   padding: 6px 20px;
->>>>>>> 6f77a88a5728a5e339bbc782c959958b31c7542b
 }
 
 #navbarCorp .dropdown-item:hover {
@@ -351,21 +295,12 @@ header {
 }
 
 .carousel-caption p {
-<<<<<<< HEAD
-    font-size: 20px;
-    line-height: 30px;
-    max-width: 600px;
-    color: #fff;
-    letter-spacing: 0.01em;
-    opacity: 0.9;
-=======
   font-size: 20px;
   line-height: 30px;
   max-width: 600px;
   color: #fff;
   letter-spacing: 0.01em;
   opacity: 0.9;
->>>>>>> 6f77a88a5728a5e339bbc782c959958b31c7542b
 }
 
 .carousel-caption .btn-caption {
@@ -638,23 +573,7 @@ header {
     padding: 0 18px;
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 /* ABOUT */
->>>>>>> 6f77a88a5728a5e339bbc782c959958b31c7542b
 
 /* SUCCESS TH */
 .progress__item {
