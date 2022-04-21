@@ -433,7 +433,7 @@ header {
   opacity: 0.7;
 }
 .feedback .feedback__content .item {
-  margin: 0 100px;
+  margin: 0 auto;
   padding: 40px 30px;
   max-width: 900px;
 }
@@ -471,6 +471,7 @@ header {
 .owl-carousel.owl-theme .owl-dots .owl-dot.active span {
   transform: scale(1.5);
   background-color: #1f3064;
+}
 }
 /* news  */
 .news {
@@ -636,4 +637,25 @@ footer {
 .copyright span{
   color: #00a63f;
   font-size: 18px;
+}
+/* BACKTOTOP  */
+.backtotop {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  background-color: #00a63f;
+  right: 20px;
+  bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 50%;
+  color: white
+}
+.backtotop:hover{
+  color: white;
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
 }
