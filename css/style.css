@@ -887,7 +887,6 @@ text-align: center;
   transform: scale(1.5);
   background-color: #1f3064;
 }
-}
 /* news  */
 .news {
   background-color: var(--bg-color);
@@ -1032,7 +1031,6 @@ footer {
 }
 .footer_top .row a:hover {
   color: white;
-  line
 }
 
 .title-footer {
